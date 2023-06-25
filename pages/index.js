@@ -45,7 +45,6 @@ export default function Home() {
           color: inherit;
         }
         code {
-          background: #fafafa;
           border-radius: 5px;
           padding: 0.75rem;
           font-size: 1.1rem;
