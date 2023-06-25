@@ -10,7 +10,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className={styles.title}>software engineer</h1>
+        <h1 className={styles.title}>Richard O</h1>
+
+        <p className={styles.description}>
+          <code>software engineer</code>
+        </p>
       </main>
 
       <style jsx>{`
