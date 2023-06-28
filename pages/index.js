@@ -29,12 +29,12 @@ export default function Home() {
           </a>
 
           <a href="https://fourcats.app" className={styles.card}>
-            <h3>fourcats.app &rarr;</h3>
+            <h3>FourCats &rarr;</h3>
             <p>web/mobile passion project I'm currently working on</p>
           </a>
 
           <a href="https://red-camp-hancock.vercel.app" className={styles.card}>
-            <h3>red camp hancock &rarr;</h3>
+            <h3>Red Camp Hancock &rarr;</h3>
             <p>airbnb listing I'm currently working on for a client</p>
           </a>
         </div>
