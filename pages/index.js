@@ -16,20 +16,22 @@ export default function Home() {
           <code>software engineer</code>
         </p>
 
-        <a
-          href="https://www.linkedin.com/in/richardhyesungo/"
-          className={styles.card}
-        >
-          <h3>linkedin &rarr;</h3>
-        </a>
+        <div className={styles.grid}>
+          <a
+            href="https://www.linkedin.com/in/richardhyesungo/"
+            className={styles.card}
+          >
+            <h3>linkedin &rarr;</h3>
+          </a>
 
-        <a href="https://github.com/richardhyesungo" className={styles.card}>
-          <h3>github &rarr;</h3>
-        </a>
+          <a href="https://github.com/richardhyesungo" className={styles.card}>
+            <h3>github &rarr;</h3>
+          </a>
 
-        <a href="https://www.fourcats.app" className={styles.card}>
-          <h3>fourcats.app &rarr;</h3>
-        </a>
+          <a href="https://www.fourcats.app" className={styles.card}>
+            <h3>fourcats.app &rarr;</h3>
+          </a>
+        </div>
       </main>
 
       <style jsx>{`
