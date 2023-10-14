@@ -36,6 +36,11 @@ export default function Home() {
             <h3>Red Camp Hancock &rarr;</h3>
             <p>airbnb listing I'm currently working on for a client</p>
           </a>
+
+          <a href="https://shame-wins-2mlanx33l-richardhyesungo.vercel.app/" className={styles.card}>
+            <h3>Shame-Wins &rarr;</h3>
+            <p>Habit/task tracker. Built with react native/react native web</p>
+          </a>
         </div>
       </main>
     </div>
