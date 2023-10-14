@@ -1,3 +1,4 @@
+//@ts-nocheck
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <Head>
         <title>Richard O</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
 
       <main>
