@@ -1,8 +1,12 @@
-const withMDX = require("@next/mdx")();
-// import withMDX from "@next/mdx";
+import remarkGfm from "remark-gfm";
+import createMDX from "@next/mdx";
+import rehypeSlug from "rehype-slug";
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Configure `pageExtensions`` to include MDX files
   pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
+  // Optionally, add any other Next.js config below
   typescript: {
     // !! WARN !!
     // Dangerously allow production builds to successfully complete even if
@@ -20,4 +24,13 @@ const nextConfig = {
   }
 };
 
-module.exports = withMDX(nextConfig);
+const withMDX = createMDX({
+  // Add markdown plugins here, as desired
+  options: {
+    remarkPlugins: [remarkGfm],
+    rehypePlugins: [rehypeSlug]
+  }
+});
+
+// Merge MDX config with Next.js config
+export default withMDX(nextConfig);
